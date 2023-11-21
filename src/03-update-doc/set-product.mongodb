@@ -1,0 +1,144 @@
+// set-product.mongodb
+
+use("pet_store")
+
+// Actualizar Producto 1
+db.products.updateOne(
+    { _id: 1 },
+    {
+      $set: {
+        title: "Nuevo Título 1",
+        price: 79.99,
+        description: "Nueva Descripción 1",
+        category: "Nueva Categoría 1",
+        image: "nueva_imagen_url_1"
+      }
+    }
+  );
+  
+  // Actualizar Producto 2
+  db.products.updateOne(
+    { _id: 2 },
+    {
+      $set: {
+        title: "Nuevo Título 2",
+        price: 49.99,
+        description: "Nueva Descripción 2",
+        category: "Nueva Categoría 2",
+        image: "nueva_imagen_url_2"
+      }
+    }
+  );
+  
+  // Actualizar Producto 3
+  db.products.updateOne(
+    { _id: 3 },
+    {
+      $set: {
+        title: "Nuevo Título 3",
+        price: 89.99,
+        description: "Nueva Descripción 3",
+        category: "Nueva Categoría 3",
+        image: "nueva_imagen_url_3"
+      }
+    }
+  );
+  
+  // Actualizar Producto 4
+  db.products.updateOne(
+    { _id: 4 },
+    {
+      $set: {
+        title: "Nuevo Título 4",
+        price: 39.99,
+        description: "Nueva Descripción 4",
+        category: "Nueva Categoría 4",
+        image: "nueva_imagen_url_4"
+      }
+    }
+  );
+  
+  // Actualizar Producto 5
+  db.products.updateOne(
+    { _id: 5 },
+    {
+      $set: {
+        title: "Nuevo Título 5",
+        price: 69.99,
+        description: "Nueva Descripción 5",
+        category: "Nueva Categoría 1",
+        image: "nueva_imagen_url_5"
+      }
+    }
+  );
+  
+  // Actualizar Producto 6
+  db.products.updateOne(
+    { _id: 6 },
+    {
+      $set: {
+        title: "Nuevo Título 6",
+        price: 29.99,
+        description: "Nueva Descripción 6",
+        category: "Nueva Categoría 2",
+        image: "nueva_imagen_url_6"
+      }
+    }
+  );
+  
+  // Actualizar Producto 7
+  db.products.updateOne(
+    { _id: 7 },
+    {
+      $set: {
+        title: "Nuevo Título 7",
+        price: 99.99,
+        description: "Nueva Descripción 7",
+        category: "Nueva Categoría 3",
+        image: "nueva_imagen_url_7"
+      }
+    }
+  );
+  
+  // Actualizar Producto 8
+  db.products.updateOne(
+    { _id: 8 },
+    {
+      $set: {
+        title: "Nuevo Título 8",
+        price: 49.99,
+        description: "Nueva Descripción 8",
+        category: "Nueva Categoría 4",
+        image: "nueva_imagen_url_8"
+      }
+    }
+  );
+  
+  // Actualizar Producto 9
+  db.products.updateOne(
+    { _id: 9 },
+    {
+      $set: {
+        title: "Nuevo Título 9",
+        price: 59.99,
+        description: "Nueva Descripción 9",
+        category: "Nueva Categoría 1",
+        image: "nueva_imagen_url_9"
+      }
+    }
+  );
+  
+  // Actualizar Producto 10
+  db.products.updateOne(
+    { _id: 10 },
+    {
+      $set: {
+        title: "Nuevo Título 10",
+        price: 39.99,
+        description: "Nueva Descripción 10",
+        category: "Nueva Categoría 2",
+        image: "nueva_imagen_url_10"
+      }
+    }
+  );
+  
