@@ -1,0 +1,189 @@
+// products.mongodb
+
+use("pet_store")
+
+db.products.drop() // elimina los documentos creados en la colleccion anteriormente
+
+db.products.insertMany([
+    {
+      _id: 1,
+      name: "Producto 1",
+      price: 100,
+      title: "Producto Mascota 1",
+      description: "Descripción del Producto Mascota 1",
+      category: "Categoría 1",
+      image: "imagen_url_1"
+    },
+    {
+      _id: 2,
+      name: "Producto 2",
+      price: 20,
+      title: "Producto Mascota 2",
+      description: "Descripción del Producto Mascota 2",
+      category: "Categoría 2",
+      image: "imagen_url_2"
+    },
+    {
+      _id: 3,
+      name: "Producto 3",
+      price: 120,
+      title: "Producto Mascota 3",
+      description: "Descripción del Producto Mascota 3",
+      category: "Categoría 3",
+      image: "imagen_url_3"
+    },
+    {
+      _id: 4,
+      name: "Producto 4",
+      price: 120,
+      title: "Producto Mascota 4",
+      description: "Descripción del Producto Mascota 4",
+      category: "Categoría 4",
+      image: "imagen_url_4"
+    },
+    {
+        _id: 5,
+        name: "Producto 5",
+        price: 35,
+        title: "Producto Mascota 5",
+        description: "Descripción del Producto Mascota 5",
+        category: "Categoría 1",
+        image: "imagen_url_5"
+      },
+      {
+        _id: 6,
+        name: "Producto 6",
+        price: 15,
+        title: "Producto Mascota 6",
+        description: "Descripción del Producto Mascota 6",
+        category: "Categoría 2",
+        image: "imagen_url_6"
+      },
+      {
+        _id: 7,
+        name: "Producto 7",
+        price: 80,
+        title: "Producto Mascota 7",
+        description: "Descripción del Producto Mascota 7",
+        category: "Categoría 3",
+        image: "imagen_url_7"
+      },
+      {
+        _id: 8,
+        name: "Producto 8",
+        price: 45,
+        title: "Producto Mascota 8",
+        description: "Descripción del Producto Mascota 8",
+        category: "Categoría 4",
+        image: "imagen_url_8"
+      },
+      {
+        _id: 9,
+        name: "Producto 9",
+        price: 60,
+        title: "Producto Mascota 9",
+        description: "Descripción del Producto Mascota 9",
+        category: "Categoría 1",
+        image: "imagen_url_9"
+      },
+      {
+        _id: 10,
+        name: "Producto 10",
+        price: 25,
+        title: "Producto Mascota 10",
+        description: "Descripción del Producto Mascota 10",
+        category: "Categoría 2",
+        image: "imagen_url_10"
+      },
+      {
+        _id: 11,
+        name: "Producto 11",
+        price: 90,
+        title: "Producto Mascota 11",
+        description: "Descripción del Producto Mascota 11",
+        category: "Categoría 3",
+        image: "imagen_url_11"
+      },
+      {
+        _id: 12,
+        name: "Producto 12",
+        price: 40,
+        title: "Producto Mascota 12",
+        description: "Descripción del Producto Mascota 12",
+        category: "Categoría 4",
+        image: "imagen_url_12"
+      },
+      {
+        _id: 13,
+        name: "Producto 13",
+        price: 75,
+        title: "Producto Mascota 13",
+        description: "Descripción del Producto Mascota 13",
+        category: "Categoría 1",
+        image: "imagen_url_13"
+      },
+      {
+        _id: 14,
+        name: "Producto 14",
+        price: 18,
+        title: "Producto Mascota 14",
+        description: "Descripción del Producto Mascota 14",
+        category: "Categoría 2",
+        image: "imagen_url_14"
+      },
+      {
+        _id: 15,
+        name: "Producto 15",
+        price: 110,
+        title: "Producto Mascota 15",
+        description: "Descripción del Producto Mascota 15",
+        category: "Categoría 3",
+        image: "imagen_url_15"
+      },
+      {
+        _id: 16,
+        name: "Producto 16",
+        price: 50,
+        title: "Producto Mascota 16",
+        description: "Descripción del Producto Mascota 16",
+        category: "Categoría 4",
+        image: "imagen_url_16"
+      },
+      {
+        _id: 17,
+        name: "Producto 17",
+        price: 70,
+        title: "Producto Mascota 17",
+        description: "Descripción del Producto Mascota 17",
+        category: "Categoría 1",
+        image: "imagen_url_17"
+      },
+      {
+        _id: 18,
+        name: "Producto 18",
+        price: 22,
+        title: "Producto Mascota 18",
+        description: "Descripción del Producto Mascota 18",
+        category: "Categoría 2",
+        image: "imagen_url_18"
+      },
+      {
+        _id: 19,
+        name: "Producto 19",
+        price: 95,
+        title: "Producto Mascota 19",
+        description: "Descripción del Producto Mascota 19",
+        category: "Categoría 3",
+        image: "imagen_url_19"
+      },
+      {
+        _id: 20,
+        name: "Producto 20",
+        price: 55,
+        title: "Producto Mascota 20",
+        description: "Descripción del Producto Mascota 20",
+        category: "Categoría 4",
+        image: "imagen_url_20"
+      }
+    ]);
+    
